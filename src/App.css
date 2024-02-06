@@ -1,10 +1,13 @@
 .login-card{
-    width: 20rem;
+    width: 35rem;
     padding: 20px 20px;
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
 }
 
 .login-image{
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
@@ -14,4 +17,107 @@
 
 .login-nav{
     background-color: #14183c;
+}
+
+.login-background{
+    background-color: #f0f2f5;
+}
+
+.login-button{
+    background-color: #14183c !important;
+    border-color: #14183c !important;
+}
+
+.login-button:active{
+    opacity: 0.75;
+}
+
+.card-active:active,
+.card-active:focus
+{
+    border-color: #14183c;
+}
+
+.sidebar{
+    display: flex;
+    height: 100vh;
+    overflow: scroll initial;
+}
+
+.sidebar-text{
+    color: #fff;
+    background-color: #14183c;
+}
+
+.sidebar-logo{
+    display: flex;
+    align-items: center;
+}
+
+.navi-logo{
+    width: 30px;
+    margin-right: 5px;
+    filter: brightness(0) invert(1);
+}
+
+.card-register{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 30rem;
+    height: auto;
+}
+
+.image-register{
+    width: 300px;
+    height: 300px;
+}
+
+.card-register {
+    transition: background-color 0.3s ease; 
+}
+  
+.card-register:hover {
+    background-color: #14183c; 
+}
+  
+.image-register {
+    transition: filter 0.3s ease;
+}
+  
+.card-register:hover .image-register {
+    filter: brightness(0) invert(1);
+}
+
+.card-register:active .image-register{
+    opacity: 0.25;
+}
+
+.image-register{
+    width: 400px;
+    height: 400px;
+}
+
+.card-create{
+    width: 40rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.btn-register-save{
+    background-color: #14183c !important;
+    border-color: #14183c !important;
+    padding: 10px;
+    height: 54px !important;
+}
+
+.btn-register{
+    background-color: #14183c !important;
+    border-color: #14183c !important;
+}
+
+.btn-register:active{
+    opacity: 0.75;
+}
+
+.btn-register-save:active{
+    opacity: 0.75;
 }
